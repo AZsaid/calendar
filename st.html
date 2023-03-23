@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="st.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+	<div class="video-container">
+        <iframe id='mySource' src="https://www.youtube.com/embed/Ij-8Ilis4Ic?autoplay=1&mute=1"></iframe>
+	</div>
+  
+	<label for="backgrounds">Choose your background:</label>
+<!-- 
+		<select onchange="dostuff()"  name="sources" id="backgrounds" class = "chosen-value" >
+        
+	<ul class="value-list">
+			
+		<option value="Walking Through Foggy Forest">Walking Through Foggy Forest</option>
+        <option value="Walking Through Foggy Forest">Walking Through Foggy Forest</option>
+        <option value="An Autumn Forest Walk">An Autumn Forest Walk</option>
+        <option value="Campfire by the Sunset">Campfire by the Sunset</option>
+        <option value="Winter Snowfall Walk">Winter Snowfall Walk</option>
+        <option value="Watching Sunrise by the Beach">Watching Sunrise by the Beach</option>
+        <option value="A Ride Through Space">A Ride Through Space</option>
+        <option value="Sitting by the Tropical Ocean">Sitting by the Tropical Ocean</option>
+     	 </ul>
+		</select>
+	
+	</div> -->
+<form>
+  <input name="sources" id="backgrounds" class = "chosen-value" type="text" placeholder="Type to filter">
+  <ul onclick="dostuff()" class="value-list">
+    <li value="Walking Through Foggy Forest">Walking Through Foggy Forest</li>
+    <li  value="An Autumn Forest Walk">An Autumn Forest Walk</li>
+    <li  value="Campfire by the Sunset">Campfire by the Sunset</li>
+    <li  value="A Ride Through Space">A Ride Through Space</li>
+    <li  value="Sitting by the Tropical Ocean">Sitting by the Tropical Ocean</li>
+  </ul>
+</form>
+    <script src="st.js"></script>
+</body>
+
+</html>
